@@ -2,9 +2,9 @@ import { gql, GraphQLClient } from 'graphql-request'
 import 'dotenv/config'
 
 /* Configs and constants */
-const ORGANIZATION_DOMAIN = process.env.ORGANIZATION_DOMAIN || 'example.troweb.app'
-const TARGET_COLLECTION_ID = process.env.TARGET_COLLECTION_ID || ''
-const TROWEB_API_KEY = process.env.TROWEB_API_KEY || ''
+const ORGANIZATION_DOMAIN = process.env.ORGANIZATION_DOMAIN || 'example.troweb.app' // the organization domain
+const TARGET_COLLECTION_ID = process.env.TARGET_COLLECTION_ID || '' // The collection in which items will be created
+const TROWEB_API_KEY = process.env.TROWEB_API_KEY || '' // troweb api key to authenticate and, access the api 
 
 const requestHeaders = { authorization: `Bearer ${TROWEB_API_KEY}` }
 const graphqlEndpoint = `${ORGANIZATION_DOMAIN}/api/v1/graphql`
