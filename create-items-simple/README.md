@@ -1,6 +1,6 @@
-# Simple Item Inserter Script
+# Sample Item Inserter Script
 
-Inserter script is a simple function to add a few items to a [Troweb collection](https://nightly.docs.troweb.com/concepts/content-management/collection) with a dead simple [schema](https://nightly.docs.troweb.com/concepts/schema/) called "ProgrammingLanguage".
+Inserter script is a sample function to add a few items to a [Troweb collection](https://nightly.docs.troweb.com/concepts/content-management/collection) with a dead simple [schema](https://nightly.docs.troweb.com/concepts/schema/) called "ProgrammingLanguage".
 
 ## Schema
 The item schema for this script is called **"ProgrammingLanguage"**.
