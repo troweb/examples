@@ -7,8 +7,14 @@
   "author": "Amirhossein Shakeri <amirhossein.shakeri.work@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "ts-node uploader.ts"
+  },
   "devDependencies": {
     "@types/node": "^18.7.18",
+    "commonjs": "^0.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
     "typescript": "^4.8.3"
   },
   "dependencies": {
@@ -17,6 +23,5 @@
     "graphql": "^16.6.0",
     "node-fetch": "^3.2.10",
     "urql": "^3.0.3"
-  },
-  "type": "module"
+  }
 }

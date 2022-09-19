@@ -1,5 +1,8 @@
 import * as fs from "node:fs/promises"
 import fetch, { fileFromSync, FormData } from "node-fetch"
+// const fetch = await import("node-fetch")
+// const fetch = (...args) =>
+//   import("node-fetch").then(({ default: fetch }) => fetch(...args))
 import { createClient, gql } from "urql"
 import * as dotenv from "dotenv"
 dotenv.config()
